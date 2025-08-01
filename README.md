@@ -50,7 +50,7 @@ Built a conservative DCF model for NVDA using free public resources for data and
 -Nevertheless, this project allowed me to explore more into NVDA and its position in the market as a whole, teaching me how to understand the financial data of a company and how to project its worth and forward growth
 
 ## File
-- `NVDA DCF.xlsb` — The model that contains all calculations, assumptions, and final valuation
+- `NVDA DCF evaluation, sensitivity analysis, and comparative analysis.xlsb` — The model that contains all calculations, assumptions, and final valuation
 
 ## Tools Used
 - Microsoft Excel
