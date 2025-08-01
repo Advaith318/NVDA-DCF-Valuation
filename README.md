@@ -17,9 +17,13 @@ Built a conservative DCF model for NVDA using free public resources for data and
 
 -Discounted values to the present
 
--Estimated the implied share price ($46.97/share) compared to the market price ($173.60/share) as of 07/17/2025
+-Estimated the implied share price ($41.49/share) compared to the market price ($173.60/share) as of 07/17/2025
 
--Concluded that under conservative assumptions and tapering trends, NVDA is overvalued by 27.06%
+-Concluded that under conservative assumptions and tapering trends, NVDA is overvalued by 23.90%
+
+-Conducted a sensitivity analysis for different WACC and TGR values
+
+-Conducted a comparative anlaysis comparing NVDA to AMD, Intel, and Qualcomm
 
 ## Methodology
 -Set TGR at 3% based on conservative long-term growth
@@ -32,10 +36,14 @@ Built a conservative DCF model for NVDA using free public resources for data and
 
 -Tapered the percentage of sales of NVDA's NWC to follow trends and assume they become more efficient with their capital (could have kept the constant percentage to be more conservative)
 
+-The WACC was mathematically correct, however, it is unrealistic as per the market which led to an immensely different DCF enterprise value compared to the market based enterprise value
+
+-Using the sensitivity analysis shows how the different combinations of the WACC and TGR impact the enterprise value, and reveal how a TGR of around 3.5% and 7% are most aligned most with the basic market standards and the market dcf prediction of around 4.221874 trillion
+
 ## Conclusion
 -My initial assumption regarding NVDA was off, as I failed to see just how hard it would be to maintain their current margins concerning the market and industry
 
--I found that NVDA was overvalued by around 27.06%, not undervalued as initially hypothesized, which aligned with my initial concerns with their rapid growth in the last half decade
+-I found that NVDA was overvalued by around 23.90%, not undervalued as initially hypothesized, which aligned with my initial concerns with their rapid growth in the last half decade
 
 -However, this DCF model was conducted with a relatively conservative ideology, which could have potentially overstated how difficult it would be to maintain their growth and margins
 
